@@ -1,0 +1,18 @@
+body{
+    background-color: #f6fcff;
+    background-image: url(../images/main_bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+
+}
+.character{
+    width: 100%;
+    /* width가 body의 100% */
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    /* inline요소라서 margin만으로는 적용x */
+    /* display: block; common.css에 img 태그 전체 적용해서 생략 가능 */
+    /* 따라서 block요소로 변경해줌 */
+    margin-bottom: 40px;
+}
